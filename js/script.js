@@ -1,4 +1,4 @@
-        document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
   const toast = document.querySelector("#toast");
 
@@ -465,6 +465,22 @@
 
       text:
         "A good mobile website is more than a desktop website made smaller. People using phones need readable text, comfortable spacing, clear navigation and buttons that are easy to tap.\n\nResponsive design allows layouts to adapt to different screen sizes. Images should resize correctly, content should remain readable and navigation should work without unnecessary scrolling or zooming.\n\nPerformance is also important on mobile devices. Optimized images, clean CSS and efficient JavaScript can help pages load faster and feel smoother.\n\nThe best responsive websites are designed around the user experience first. Whether someone visits from a phone, tablet or computer, the goal should be a website that feels simple, fast and comfortable to use."
+    },
+
+
+    /* =========================
+       ARTICLE 7 - NEW
+    ========================= */
+
+    "ASUS unveils new AI PCs with next-generation AI performance": {
+
+      category: "AI",
+
+      meta:
+        "By Gaurav Kumar · Sep 2, 2026 · 5 min read",
+
+      text:
+        "AI is becoming a bigger part of everyday computers, and the latest generation of AI PCs is designed to make intelligent features more practical on personal devices. ASUS has introduced new ProArt P16, ProArt P14 and GR1X devices with a strong focus on AI performance and modern creator workflows.\n\nThese new devices are designed for users who want to work with demanding applications while also taking advantage of AI-powered tools. Local AI capabilities can help with tasks such as content creation, productivity and other workflows without relying entirely on cloud-based processing.\n\nThe growth of AI PCs shows how artificial intelligence is moving from software-only experiences into everyday computer hardware. As processors and graphics systems become more capable of running AI workloads, laptops and desktops can offer more intelligent features directly on the device.\n\nFor students, developers and creators, the important factor will be how useful these AI features are in real-world tasks. Instead of buying a device only because it is labelled an AI PC, users should consider performance, battery life, software support and whether the available AI features actually match their needs."
     }
 
   };
