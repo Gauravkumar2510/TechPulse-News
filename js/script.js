@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("DOMContentLoaded", () => {
 
   const toast = document.querySelector("#toast");
 
@@ -153,8 +153,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* =========================
      CATEGORY FROM URL
-     Example:
-     index.html?category=AI
   ========================= */
 
   const params =
@@ -206,9 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault();
 
       const email =
-        document.querySelector(
-          "#newsletterEmail"
-        );
+        document.querySelector("#newsletterEmail");
 
 
       if (!email?.checkValidity()) {
@@ -220,6 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
         email?.focus();
 
         return;
+
       }
 
 
@@ -298,6 +295,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       }
 
+
+      /* Keep Formspree protection */
 
       if (
         contactForm.action.includes(
@@ -405,7 +404,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "By Gaurav Kumar · Sep 2, 2026 · 5 min read",
 
       text:
-        "AI agents are moving beyond simple chat interfaces. Modern AI systems can help organize research, draft content, summarize information, manage repetitive tasks and support everyday workflows. The important change is that AI is becoming more action-oriented. Instead of only answering questions, an AI agent can help complete a sequence of tasks. For students and developers, this can make research and productivity faster. The goal is not to replace every person or every job, but to provide useful digital assistance for repetitive work."
+        "AI agents are moving beyond simple chat interfaces and becoming useful digital assistants for everyday work. Instead of only answering a question, an AI agent can understand a goal, break it into smaller steps and help complete those tasks. This can include researching information, organizing notes, preparing drafts, summarizing documents and handling repetitive workflows.\n\nFor students and developers, AI agents can save time on routine work and allow more attention to problem-solving and creativity. However, human review is still important because AI systems can make mistakes or produce incorrect information. The best approach is to use AI as a productivity tool while keeping people responsible for important decisions.\n\nAs these tools continue to improve, understanding how to use them effectively may become an important digital skill. The future of AI is not only about smarter chatbots, but also about practical systems that can help people complete real tasks."
     },
 
 
@@ -417,7 +416,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "By Gaurav Kumar · Sep 1, 2026 · 4 min read",
 
       text:
-        "Web development continues to become simpler. Modern browsers can handle many features that previously required large libraries or complicated tools. Developers are increasingly focusing on clean HTML, modern CSS, JavaScript and lightweight workflows. A simpler stack can improve performance, reduce maintenance and make projects easier to understand. For beginners, this is especially useful because learning the fundamentals remains more valuable than depending on a large number of tools."
+        "Web development is becoming simpler as modern browsers continue to support more powerful features. Developers can now build many fast and interactive websites using a combination of HTML, CSS and JavaScript without depending on a large collection of libraries.\n\nA lightweight approach can improve website performance, reduce maintenance and make projects easier to understand. It can also be helpful for beginners because learning the fundamentals gives developers a strong foundation before they start using advanced frameworks.\n\nThis does not mean that frameworks are no longer useful. They remain valuable for large applications and complex projects. The important idea is to choose tools based on the actual requirements of a project instead of adding unnecessary complexity."
     },
 
 
@@ -429,7 +428,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "By Gaurav Kumar · Aug 31, 2026 · 6 min read",
 
       text:
-        "Online security starts with small everyday habits. Use strong and unique passwords for important accounts and enable multi-factor authentication whenever it is available. Keep your phone, computer and applications updated. Be careful with unexpected links and messages, especially when they request passwords or personal information. It is also useful to review account recovery options and active sessions from time to time. These simple practices can significantly reduce common digital security risks."
+        "Online security often starts with a few simple habits. One of the most important steps is using strong and unique passwords for different accounts. If the same password is reused everywhere, one compromised account can potentially put other accounts at risk.\n\nMulti-factor authentication adds another layer of protection and should be enabled whenever it is available. Keeping your phone, computer and applications updated is also important because updates can include security fixes.\n\nUsers should also be careful with unexpected links, attachments and messages that ask for passwords, payment details or personal information. Regularly checking account recovery options and active sessions can help identify suspicious activity early.\n\nGood cybersecurity does not require complicated tools. Consistent everyday habits can significantly reduce common digital risks."
     },
 
 
@@ -441,7 +440,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "By Gaurav Kumar · Aug 29, 2026 · 4 min read",
 
       text:
-        "Choosing a smart device should start with the problem you want it to solve. Instead of focusing only on processor numbers, camera specifications or display size, consider software support, battery life, privacy, reliability and compatibility with your existing devices. A useful gadget should make everyday tasks easier and continue to receive support for a reasonable period. Looking at the complete experience can help you make a better purchase decision."
+        "Choosing a smart device should begin with understanding what you actually need from it. Specifications such as processor speed, camera resolution and display size are useful, but they are not the only things that matter.\n\nSoftware support, battery life, build quality, privacy features and compatibility with your existing devices can have a much bigger impact on the everyday experience. A device that receives regular software updates can also remain useful for longer.\n\nBefore buying a new gadget, it is worth comparing the complete experience instead of focusing on a single specification. Think about how often you will use the device, what problems it should solve and whether it fits into your existing technology setup.\n\nThe best gadget is usually not the one with the biggest numbers. It is the one that provides useful features and reliable performance for your actual needs."
     },
 
 
@@ -453,7 +452,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "By Gaurav Kumar · Aug 28, 2026 · 7 min read",
 
       text:
-        "Smaller AI models are becoming increasingly useful because they can require fewer computing resources. Efficient models can run closer to the devices where applications are used, including phones and laptops. Local processing can improve response time and reduce the need to send every request to a remote server. For developers, smaller models can also make experimentation more affordable. The future of AI is therefore not only about larger models, but also about efficient models that can perform specific tasks well."
+        "The AI industry often focuses on increasingly large models, but smaller and more efficient models are becoming important as well. Smaller models can require less computing power and may be easier to run on local devices such as phones and laptops.\n\nLocal AI processing can provide faster responses and can reduce the need to send every request to a remote server. It can also be useful in situations where an internet connection is limited or where keeping information on the device is preferred.\n\nFor developers, efficient models can make experimentation more accessible because they may require fewer hardware resources. This opens the possibility of building AI-powered features for a wider range of applications.\n\nThe future of AI will likely include both extremely capable large models and smaller specialized models designed to perform specific tasks efficiently."
     },
 
 
@@ -465,7 +464,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "By Gaurav Kumar · Aug 26, 2026 · 5 min read",
 
       text:
-        "A good mobile website is designed around the needs of people using a small screen. Text should be readable, buttons should be easy to tap and navigation should remain simple. Images and layouts should adapt to different screen sizes without making users zoom or scroll unnecessarily. Responsive design is therefore more than shrinking a desktop layout. It is about creating a comfortable experience across phones, tablets and computers."
+        "A good mobile website is more than a desktop website made smaller. People using phones need readable text, comfortable spacing, clear navigation and buttons that are easy to tap.\n\nResponsive design allows layouts to adapt to different screen sizes. Images should resize correctly, content should remain readable and navigation should work without unnecessary scrolling or zooming.\n\nPerformance is also important on mobile devices. Optimized images, clean CSS and efficient JavaScript can help pages load faster and feel smoother.\n\nThe best responsive websites are designed around the user experience first. Whether someone visits from a phone, tablet or computer, the goal should be a website that feels simple, fast and comfortable to use."
     }
 
   };
@@ -565,7 +564,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  /* Make article cards clickable */
+  /* =========================
+     CLICKABLE ARTICLE CARDS
+  ========================= */
 
   cards.forEach(card => {
 
@@ -608,6 +609,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
+  /* =========================
+     CLOSE MODAL
+  ========================= */
+
   modalClose?.addEventListener(
     "click",
     closeArticle
@@ -640,7 +645,9 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
 
-  /* Initial filter */
+  /* =========================
+     INITIAL FILTER
+  ========================= */
 
   filterArticles();
 
