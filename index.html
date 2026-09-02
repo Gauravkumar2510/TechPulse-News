@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TechPulse is a modern technology news and blog website covering AI, web development, cybersecurity and gadgets.">
+  <title>TechPulse | Technology News & Insights</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">TP</span><span>Tech<span>Pulse</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Categories</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">THE FUTURE, EXPLAINED</p>
+        <h1>Technology news for the <span>next generation.</span></h1>
+        <p class="hero-copy">Clear, practical stories about AI, web development, cybersecurity, gadgets and the ideas shaping tomorrow.</p>
+        <a class="btn" href="#latest">Explore latest stories →</a>
+      </div>
+      <div class="hero-art" aria-label="Technology illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="core">AI<br><small>2030</small></div>
+        <div class="chip chip-a">⌘</div><div class="chip chip-b">&lt;/&gt;</div><div class="chip chip-c">◈</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="latest">
+    <div class="container">
+      <div class="section-head">
+        <div><p class="eyebrow">TRENDING NOW</p><h2>Latest stories</h2></div>
+        <div class="search-box"><label class="sr-only" for="searchInput">Search articles</label><input id="searchInput" type="search" placeholder="Search articles..."></div>
+      </div>
+      <div class="category-row" id="categoryFilters">
+        <button class="filter active" data-category="all">All</button>
+        <button class="filter" data-category="AI">AI</button>
+        <button class="filter" data-category="Web">Web</button>
+        <button class="filter" data-category="Security">Security</button>
+        <button class="filter" data-category="Gadgets">Gadgets</button>
+      </div>
+
+      <div class="news-grid" id="newsGrid">
+        <article class="news-card" data-category="AI" data-title="How AI agents are changing everyday work">
+          <div class="card-image ai-art"><span>AI</span></div>
+          <div class="card-body"><span class="tag">AI</span><h3>How AI agents are changing everyday work</h3><p>From research to routine tasks, intelligent agents are becoming useful digital teammates.</p><div class="meta">Sep 2, 2026 · 5 min read</div></div>
+        </article>
+        <article class="news-card" data-category="Web" data-title="The web development stack is getting lighter">
+          <div class="card-image web-art"><span>&lt;/&gt;</span></div>
+          <div class="card-body"><span class="tag">WEB</span><h3>The web development stack is getting lighter</h3><p>Modern browsers and simpler tooling are helping developers ship fast experiences.</p><div class="meta">Sep 1, 2026 · 4 min read</div></div>
+        </article>
+        <article class="news-card" data-category="Security" data-title="Five habits that make your online accounts safer">
+          <div class="card-image security-art"><span>SEC</span></div>
+          <div class="card-body"><span class="tag">SECURITY</span><h3>Five habits that make your online accounts safer</h3><p>Small security improvements can dramatically reduce everyday digital risk.</p><div class="meta">Aug 31, 2026 · 6 min read</div></div>
+        </article>
+        <article class="news-card" data-category="Gadgets" data-title="What to look for in your next smart device">
+          <div class="card-image gadget-art"><span>01</span></div>
+          <div class="card-body"><span class="tag">GADGETS</span><h3>What to look for in your next smart device</h3><p>A practical checklist for choosing useful hardware instead of chasing specifications.</p><div class="meta">Aug 29, 2026 · 4 min read</div></div>
+        </article>
+        <article class="news-card" data-category="AI" data-title="Why small AI models matter">
+          <div class="card-image model-art"><span>ML</span></div>
+          <div class="card-body"><span class="tag">AI</span><h3>Why small AI models matter</h3><p>Efficient models can bring intelligent features closer to the devices that use them.</p><div class="meta">Aug 28, 2026 · 7 min read</div></div>
+        </article>
+        <article class="news-card" data-category="Web" data-title="Designing websites that feel great on mobile">
+          <div class="card-image mobile-art"><span>UX</span></div>
+          <div class="card-body"><span class="tag">WEB</span><h3>Designing websites that feel great on mobile</h3><p>Responsive design is more than shrinking a desktop layout. Here is what matters.</p><div class="meta">Aug 26, 2026 · 5 min read</div></div>
+        </article>
+      </div>
+      <p class="no-results" id="noResults" hidden>No stories match your search.</p>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <div><p class="eyebrow">WEEKLY BRIEF</p><h2>Get the smartest tech stories in your inbox.</h2></div>
+      <form id="newsletterForm" class="inline-form"><input id="newsletterEmail" type="email" placeholder="Your email address" required><button class="btn" type="submit">Subscribe</button></form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">TP</span><span>Tech<span>Pulse</span></span></a><p>Technology, explained simply.</p></div><div><h4>Explore</h4><a href="about.html">About</a><a href="services.html">Categories</a><a href="contact.html">Contact</a></div><div><h4>Topics</h4><a href="services.html#ai">Artificial Intelligence</a><a href="services.html#web">Web Development</a><a href="services.html#security">Cybersecurity</a></div></div><div class="container copyright">© 2026 TechPulse. Built for educational purposes.</div></footer>
+
+<div class="article-modal" id="articleModal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
+  <article class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close article">×</button>
+    <span class="tag" id="modalCategory">TECH</span>
+    <h2 id="modalTitle">Article title</h2>
+    <p class="modal-meta" id="modalMeta"></p>
+    <div class="modal-divider"></div>
+    <p id="modalText"></p>
+    <p class="modal-extra">This article is part of the TechPulse educational demo. In a production news site, this area could contain the complete article, author information, related stories and share buttons.</p>
+  </article>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
